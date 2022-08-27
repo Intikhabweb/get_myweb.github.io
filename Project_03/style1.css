@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.font1 {
+  /* font-family: 'Cagliostro', sans-serif;
+font-family: 'Syncopate', sans-serif; */
+  font-family: "Cagliostro", sans-serif;
+  font-family: "Chelsea Market", cursive;
+}
+
+.font2 {
+  font-family: "Cagliostro", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+/* Animation */
+
+.animation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* background-color:lightgray; */
+}
+
+.animation img {
+  width: 115px;
+  height: 85px;
+  position: absolute;
+  left: 0%;
+  top: 7px;
+  animation-name: animate;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
